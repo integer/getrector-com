@@ -98,14 +98,13 @@
                         >
                     </div>
 
-                    <div class="row mt-3 mb-2">
+                    <div class="row mt-4 mb-3">
                         <div class="col-12 filter-code-sample">
-                            <pre><code
-                                    class="language-diff">{{ $filteredRule->getDiffCodeSample() }}</code></pre>
+                            <pre><code class="language-diff">{{ $filteredRule->getDiffCodeSample() }}</code></pre>
                         </div>
 
                         @if ($filteredRule->getSets())
-                            <div class="col-12 mb-1">
+                            <div class="col-12 mt-1 mb-1">
                                 SETS:&nbsp;
 
                                 @foreach ($filteredRule->getSets() as $set)

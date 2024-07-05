@@ -41,11 +41,6 @@
     </li>
 
     <li class="nav-item">
-        <a href="{{ action(\App\Controller\InteractiveController::class) }}"
-           class="nav-link">Play and Learn</a>
-    </li>
-
-    <li class="nav-item">
         <a href="{{ action(\App\Ast\Controller\AstController::class) }}"
            class="nav-link">Play with AST</a>
     </li>

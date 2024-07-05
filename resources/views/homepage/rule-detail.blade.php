@@ -57,7 +57,7 @@
                     @endif
 
                     @if ($ruleMetadata->getSets())
-                        <div class="col-12 mt-1 mb-1">
+                        <div class="col-12 mb-1">
                             SETS:&nbsp;
 
                             @foreach ($ruleMetadata->getSets() as $set)
